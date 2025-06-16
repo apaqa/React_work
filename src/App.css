@@ -1,0 +1,125 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.profile-link {
+  background-color: #ff6347;
+  color: white !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.home-container {
+  padding: 20px;
+  text-align: center;
+}
+.feature-list {
+  text-align: left;
+  display: inline-block;
+  margin: 20px;
+}
+.profile-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.profile-button:hover {
+  opacity: 0.8;
+}
+.feature-container {
+  padding: 20px;
+}
+.color-box {
+  margin-top: 10px;
+}
+.multiplication-table, .multiplication-table td {
+  border: 1px solid #333;
+}
+.multiplication-table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.calculator input, .calculator select {
+  margin: 5px;
+  padding: 5px;
+}
+.calculator button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+.tic-tac-toe {
+  margin: 10px 0;
+}
+.board-row {
+  display: flex;
+}
+.square {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  font-size: 24px;
+}
+.square:hover {
+  background-color: #f0f0f0;
+}
+.winner-message {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.profile-container {
+  padding: 20px;
+}
+.profile-content {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+.profile-column {
+  flex: 1;
+}
+.profile-column h2 {
+  color: #333;
+}
+.water-sort-game {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+.bottle {
+  width: 50px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.bottle.selected {
+  border-color: #ff6347;
+}
+.water {
+  width: 100%;
+  height: 40px;
+  margin: 1px 0;
+}
